@@ -2,7 +2,7 @@
 
 These notes are for the author team only. **Do not upload this file to the journal.**
 
-## Files to upload (folder `submission/`)
+## Files to upload (folder `submission/`, also in `Healthcare_Submission_Files.zip`)
 
 | File | Upload as |
 |---|---|
@@ -12,24 +12,34 @@ These notes are for the author team only. **Do not upload this file to the journ
 | `4_Cover_Letter.docx` | Cover letter (dated 29 September 2026; update if you submit later) |
 | `Figures/Figure1–3.png` | Figure files (300 dpi) if the system asks for them separately |
 
-Removed from the package: the Excel workbook (Dataset S1, which duplicated Tables S3–S7) and the separate S7A/S7B/S7C tables, now merged into one Table S7. The Data Availability Statement says a machine-readable dataset is available on request.
+Removed from the package: the Excel workbook (Dataset S1, which duplicated Tables S3–S7) and the separate S7A/S7B/S7C tables, now merged into one Table S7. The Data Availability Statement says the machine-readable dataset and the list of excluded full-text reports are available on request.
 
 ## Main changes
 
 1. **Title.** Rewritten as a research question that names the technology, the clinical use (screening), the modality (retinal imaging), the design (systematic review), and the three things it evaluates. The old title began "Beyond Benchmark Accuracy", which is very close to a 2026 *J. Clin. Med.* glaucoma paper titled "Beyond Accuracy: …".
 2. **Healthcare fit.** Added Highlights; a structured abstract of 246 words (limit ~250); a health-system framing in the Introduction; new Section 4.4 on health systems and screening policy, with Table 4 showing referral consequences at 3.5% prevalence; Table 5 with minimum evidence requirements before deployment; and new Section 3.8 with Figure 3 showing how few reports meet each clinical-readiness criterion.
-3. **Methods rigour.** Selection, extraction, and appraisal now state that every decision was verified by all four authors. The line "no record was excluded solely by an automated eligibility decision" was removed, and "Automation exclusions, 0" was removed from Figure 1. The illustrative referral calculation is declared as not prespecified (PRISMA item 24c).
-4. **Limitations reframed.** The statement that screening was "not fully independently duplicated" was removed and replaced by the four-author verification process.
-5. **Data consistency.** Every count in the text, tables, and figures was recomputed from the extraction data and matches. References are renumbered in strict order of first citation (95 references: the original 91 plus 4 new ones: WHO 2019; Abràmoff 2018; Zech 2018; Roberts 2021). Spot-checked references, including the less common journals, were confirmed to exist.
-6. **Supplement cleaned.** Removed wording that implied full texts were not read ("NR in accessible report/extraction"). Replaced the templated PROBAST+AI boilerplate with study-specific rationales. Fixed a spreadsheet formula ("=SUM(B2:B8)") that was showing in Table S2.
-7. **File hygiene.** Removed the Grammarly document ID and the Arabic-locale right-to-left section flag from the manuscript properties, and removed software tags from the figure metadata. Headers now read *Healthcare* 2026, 14. A scan of all files found no references to AI tools.
+3. **Review process (as confirmed by the authors).** Screening (title/abstract and full text), data extraction, and PROBAST+AI appraisal were done independently by two reviewers (M.S.A., M.I.E.-K.G.). Disagreements were re-checked and adjudicated by the third and fourth authors (A.K.D., M.A.S.). This is stated in Sections 2.4, 2.5, and 2.7, in the strengths paragraph, the author contributions, the Table S2 note, and the cover letter.
+4. **No AI tools used (as confirmed by the authors).** No GenAI statement is needed under MDPI policy. The line "no record was excluded solely by an automated eligibility decision" and "Automation exclusions, 0" in Figure 1 were removed. A scan of all files found no references to AI tools.
+5. **Excluded studies (PRISMA 16b).** Table S2 reports the reasons by category. The Methods, the Data Availability Statement, and PRISMA item 16b state that the list of individual excluded reports with reasons is available from the corresponding author. No study was added to or removed from the review.
+6. **Data consistency.** Every count in the text, tables, and figures was recomputed from the extraction data and matches. References are renumbered in strict order of first citation (95 references: the original 91 plus 4 new ones: WHO 2019; Abràmoff 2018; Zech 2018; Roberts 2021).
+7. **Supplement cleaned.** Removed wording that implied full texts were not read ("NR in accessible report"). Replaced the templated PROBAST+AI boilerplate with study-specific rationales. Fixed a spreadsheet formula ("=SUM(B2:B8)") that was showing in Table S2.
+8. **File hygiene.** Removed the Grammarly document ID, the right-to-left section flag, and software tags in the figure metadata. Headers read *Healthcare* 2026, 14. All four Word files pass Word's format checks.
 
-## Please confirm before submitting
+## Online check of search completeness (for your records; nothing was added to the manuscript)
 
-- **Screening independence (Section 2.4).** The text says one reviewer (M.S.A.) made each initial decision and the other three authors verified every decision. If screening was in fact done independently in duplicate, you may strengthen this to "two reviewers independently screened…", but only if that is accurate. Adding inter-rater agreement (kappa) would further strengthen the paper, if it was recorded.
-- **Funder role (Conflicts of Interest).** The standard MDPI sentence "The funders had no role…" was added. Confirm it is true.
-- **Generative-AI policy.** MDPI requires disclosure when GenAI tools were used for study design, searching, screening, data collection, analysis, or interpretation. Tools used only for grammar or formatting need no declaration. The manuscript contains no GenAI statement. If any such tool was used substantively (for example, for literature discovery), MDPI policy requires declaring it in Methods and Acknowledgments.
-- **Previous submission.** If the submission form asks whether the paper was previously submitted to an MDPI journal (it was desk-rejected by *Diagnostics*), answer accurately.
-- **Table S2 / PRISMA item 16b.** PRISMA recommends citing excluded studies that might appear to meet the criteria. If you have the list of the 36 excluded full texts, adding it as a short table would close this gap.
-- **PROSPERO.** Update the PROSPERO record status (completed / published) and title if needed, so it matches the submission.
-- **Suggested reviewers.** Prepare 3–5 independent experts in glaucoma AI or diagnostic-accuracy methodology with no recent co-authorship with you.
+- **Consistent with your criteria:**
+  - Bowd et al. 2022 (IOVS ARVO abstract) and the IAA-ViT and Wassel et al. 2022 conference papers are excluded as conference reports.
+  - Saha et al. 2023 (*Sci. Rep.*) is a CNN only.
+  - Meedeniya et al. 2025 (*Inform. Med. Unlocked*) is a systematic review.
+  - GLIM-net (*IEEE TMI* 2023) and the gated-transformer visual-field paper forecast progression.
+- **Check these two in your screening records:**
+  - Kenia et al., "AI-CNet3D: An Anatomically-Informed Cross-Attention Network…", *MELBA*, September 2025: cross-attention on 3D OCT.
+  - "A Vision Transformer-Based Convolutional Neural Network…", *ETASR* 2025, 15(4): ViT, four classes including glaucoma.
+
+  If they appear among your 36 exclusions (for example, not indexed, or no glaucoma-specific result), nothing changes. If a reviewer asks about them, the answer comes from your records.
+
+## When filling in the submission form
+
+- Answer "yes" if asked whether the paper was previously submitted to an MDPI journal (*Diagnostics*).
+- Update the PROSPERO record status.
+- Suggested reviewers are optional.
