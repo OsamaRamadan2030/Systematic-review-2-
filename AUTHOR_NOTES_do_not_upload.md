@@ -46,3 +46,10 @@ Keep your original screening file. An editor may ask for it, and it should match
 - Answer "yes" if asked about previous submission to an MDPI journal (*Diagnostics*).
 - Update the PROSPERO record status.
 - Confirm the PROSPERO web address in Section 2.1 opens your record.
+
+## Diagnostics Special Issue package (folder `submission_diagnostics/`, `Diagnostics_Submission_Files.zip`)
+
+- **Target:** *Diagnostics*, Special Issue "Artificial Intelligence in Eye Disease, Fifth Edition" (Guest Editor Prof. Dr. Jae-Ho Han; deadline 31 December 2026). Submit through the Special Issue's own submission link so the paper is assigned to it.
+- **Fit:** the Special Issue asks for AI in detecting, screening, and diagnosing eye diseases from fundus photographs, OCT, and visual fields, explicitly including glaucomatous optic nerve changes. Its keywords include glaucoma, fundus image, optical coherence tomography, and deep learning, and it invites review articles.
+- **Differences from the Healthcare package:** the Diagnostics template (no Highlights section) and the *Diagnostics* header; keywords matched to the Special Issue ("deep learning", "fundus image"); a cover letter to the Guest Editor; and the journal name in the PRISMA checklist. The scientific content, tables, figures, supplement, and references are identical.
+- **Previous submission:** an earlier version was desk-rejected by *Diagnostics*. The cover letter discloses this and lists the substantive changes. Answer "yes" to the previous-submission question in the submission form and, if asked, give the earlier manuscript ID.
