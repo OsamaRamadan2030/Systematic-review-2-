@@ -9,7 +9,7 @@ These notes are for the author team only. **Do not upload this file to the journ
 | `1_Manuscript_Healthcare.docx` | Manuscript (built in the official Healthcare template) |
 | `2_Supplementary_Materials.docx` | Supplementary Materials (Tables S1–S7) |
 | `3_PRISMA_2020_Checklist.docx` | Supplementary file / reporting checklist |
-| `4_Cover_Letter.docx` | Cover letter (add the date before uploading) |
+| `4_Cover_Letter.docx` | Cover letter (dated 29 September 2026; update if you submit later) |
 | `Figures/Figure1–3.png` | Figure files (300 dpi) if the system asks for them separately |
 
 Removed from the package: the Excel workbook (Dataset S1, which duplicated Tables S3–S7) and the separate S7A/S7B/S7C tables, now merged into one Table S7. The Data Availability Statement says a machine-readable dataset is available on request.
