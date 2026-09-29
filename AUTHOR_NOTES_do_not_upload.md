@@ -16,7 +16,7 @@ These notes are for the author team only. **Do not upload this file to the journ
 
 | Concern | What changed |
 |---|---|
-| 1. Report-level exclusion list | **Still needs your records (see below).** The PRISMA item 16b entry now says "Partially reported" instead of implying full reporting. The Methods and Data Availability Statement say the report-level list is available on request. |
+| 1. Report-level exclusion list | **Resolved.** All 36 full-text exclusions from your screening records are listed in Table S2(b), each with its principal reason and specific basis, and cited in Section 3.1 and the reference list (129 references). The counts match Figure 1 (2/10/8/6/5/3/2). PRISMA 16b is now "Reported". Methods 2.4 states the rule that preprint or conference versions of included articles were classed as duplicates. |
 | 2. Intended use shifts | Section 2.1 now defines two uses: diagnostic detection, and population screening (target population, setting, test role, referral pathway). PROBAST+AI applicability ratings are explicitly for diagnostic detection. Section 3.7 adds that **no report was applicable to population screening**. The three "low" reports (OHTS trial, DIGS/ADAGES research cohorts, POAAGG case–control) are qualified as applying to diagnostic detection only, and the seven EyePACS/AIROGS reports are discussed. Updated in the Abstract, Highlights, Table 2, Table S7 note, Figure 2 caption, Figure 3, and Conclusions. |
 | 3. Early-disease wording | "Directly interpretable" was replaced by **extractable (2)** versus **credible for clinical inference (1)**, defined in Section 2.8. Bouris et al. is classified as extractable but not credible. Updated everywhere, including Table S5. |
 | 4. Eligibility recheck | Rule stated in Section 2.2: (a) glaucoma-only task or (b) glaucoma-class result. Table S4 has a new column giving the basis for **every** report. The 10 multidisease reports were cross-checked against the extraction data. A new **sensitivity analysis** (Table S8, Section 3.8) excludes the six reports without a transcribable glaucoma-specific estimate (S08, S17, S33, S48, S52, S53); no headline proportion changes by more than 2.2 points. |
@@ -27,12 +27,19 @@ These notes are for the author team only. **Do not upload this file to the journ
 | Table 4 | Scenarios renamed A/B/C (hypothetical). The text states they are not estimates of any included model's performance or loss of performance. |
 | Template placeholders | Removed the "x"/"FOR PEER REVIEW" header text, the footer DOI placeholder, and the "Academic Editor / Received: date" box. |
 
-## Needed from you: the list of excluded full-text reports (concern 1)
+## Corrections made to the exclusion log you supplied
 
-A pre-reviewer asked for the report-level list of the 36 full-text exclusions. Only your screening records contain it; it cannot be reconstructed without them. Please send, for each excluded report: first author, year, title, journal or venue, and the principal exclusion reason. It will then be added as a cited Table S2 and PRISMA 16b will change to "Reported". Please also check whether these two appear in your records:
+Every entry was checked against publisher or index records before inclusion. The following errors were corrected:
 
-- Kenia et al., "AI-CNet3D: An Anatomically-Informed Cross-Attention Network…", *MELBA*, September 2025 (cross-attention, 3D OCT).
-- "A Vision Transformer-Based Convolutional Neural Network…", *ETASR* 2025, 15(4) (ViT, four classes including glaucoma).
+- Row 3 (Christopher 2018): the author order is Christopher, Belghith, Bowd.
+- Row 11 (Kim 2023, *Sci. Rep.*): the authors are Kim JA, Yoon H, Lee D, Kim M, Choi J, Lee EJ, Kim T-W.
+- Row 12 (*Eye* 2023): the authors are Qian X, Xian S, Su Y… (not "Xu Q, Song X").
+- Row 36 (MaxGlaViT preprint): three authors only; Atabaş İ is not an author.
+- Rows 8 and 10: the page range (e94–e100) and article number (20313) were added.
+- Row 33 and rows 35–36: the "accessible report metadata" and "candidate only / unresolved" wording was replaced.
+- The table title no longer says "reconstructed".
+
+Keep your original screening file. An editor may ask for it, and it should match Table S2.
 
 ## When filling in the submission form
 
